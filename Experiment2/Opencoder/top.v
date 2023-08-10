@@ -1,7 +1,7 @@
 `default_nettype none
 module top(x,en,y);
   input wire [3:0] x;
-  input  en;
+  input  wire en;
   output reg [1:0] y;
   integer i;
   always @(x or en) begin
